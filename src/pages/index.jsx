@@ -10,6 +10,7 @@ import GameDevLogo from "@/assets/images/logo/GameDev.png";
 import IoTDevLogo from "@/assets/images/logo/IoTDev.png";
 import OlimpiadeLogo from "@/assets/images/logo/Olim.png";
 import MageGlowLogo from "@/assets/images/logo/mage-glow.svg";
+import BannerCard from "@/components/BannerCard";
 
 export default function Home() {
   return (
@@ -145,6 +146,13 @@ export default function Home() {
               image={OlimpiadeLogo}
               link="/competition/olim"
             />
+            <div className="">
+              <BannerCard 
+                link="./shop"
+              >
+                
+              </BannerCard>
+            </div>
           </div>
         </div>
       </Layout>

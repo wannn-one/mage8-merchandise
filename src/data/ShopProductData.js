@@ -1,4 +1,4 @@
-import { IconBorderStyle2 } from '@tabler/icons';
+  import { IconBorderStyle2 } from '@tabler/icons';
 export const item = [
   {
     name: 'Game on! T-Shirt',
